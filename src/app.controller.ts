@@ -10,7 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('name')
+  @Get('namee')
   getName() {
     return {name:"ajay"};
   }
